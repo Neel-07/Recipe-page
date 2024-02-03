@@ -21,7 +21,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ![](recipe-page-main/design/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://neel-07.github.io/Recipe-page/)
+- Live Site URL: [Click here](https://neel-07.github.io/Recipe-page/)
 
 ## My process
    I began by structuring the HTML to create the recipe page, incorporating sections for ingredients, preparation steps, and images. This involved using semantic HTML to ensure accessibility and good structure. Then, I moved on to styling the page using CSS. I focused on making the recipe page responsive and ensuring it looked visually appealing on different screen sizes.
