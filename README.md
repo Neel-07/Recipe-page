@@ -18,7 +18,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   
 ### Screenshot
 
-![](./design/desktop-design.jpg)
+![](recipe-page-main/design/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [Add live site URL here](https://neel-07.github.io/Recipe-page/)
