@@ -5,33 +5,38 @@
 }
 
 body{
-    height:100%;
-    width:100%;
+    /* height:100%;
+    width:100%; */
     background-color: hsl(30, 54%, 90%);
 }
 
 .container{
-    height: 100%;
-    width: 100%;
+    /* height: 100%;
+    width: 100%; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .box{
-    background-color: hsl(0, 0%, 100%) ;
-    height:70%;
-    width:40%;
+    background-color: hsl(0, 0%, 100%);
+    height: 70%;
+    width: 40%;
+    max-width: 800px;
     border-radius: 10px;
-    margin:40px;
-    padding:10px;
+    margin: 1%; /* Using percentages for margin */
+    padding: 1%; /* Using percentages for padding */
+    display: flex;
+    flex-direction: column;
 }
+
 
 .box img{
     height: 30%;
     width: 96%;
     margin: 10px;
     border-radius:10px;
+    align-self: center;
 }
 
 .box h2{
@@ -54,7 +59,8 @@ body{
     margin:10px;
     border-radius:10px;
     padding:10px;
-
+    display:flex;
+    flex-direction: column;
 }
 
 .prep h4{
@@ -175,8 +181,6 @@ ol > li::marker {
     display:grid;
     grid-template-columns: repeat(2,1fr);
     padding:20px;
-    
-
 }
 
 .nutrition li{
@@ -196,8 +200,22 @@ ol > li::marker {
 }
 
 @media (max-width: 375px) {
-    .box{
-        height:100%;
-        width:100%;
+    .container {
+        align-items: flex-start; /* Adjusting alignment for smaller screens */
     }
-  }
+
+    .box {
+        width: 100%; 
+        height: 100%; /* Setting the height to 100% of the viewport height for full height */
+        margin: 0; /* Removing margin for full-width display */
+        border-radius: 0; /* Removing border radius for a full edge-to-edge display */
+    }
+}
+
+/* @media (min-width:376px) and (max-width:1000px) {
+     .box{
+        width:60%;
+     } 
+    }*/
+
+    
