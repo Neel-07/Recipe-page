@@ -212,10 +212,11 @@ ol > li::marker {
     }
 }
 
-/* @media (min-width:376px) and (max-width:1000px) {
+@media  (max-width:1000px) {
      .box{
-        width:60%;
+        min-width: 376px;
+        
      } 
-    }*/
+    }
 
     
